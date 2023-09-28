@@ -1,0 +1,31 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js -e js,gql,.env",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@fastify/autoload": "^5.7.1",
+    "@fastify/cors": "^8.3.0",
+    "@fastify/redis": "^6.1.1",
+    "@graphql-tools/graphql-file-loader": "^8.0.0",
+    "@graphql-tools/load": "^8.0.0",
+    "@graphql-tools/load-files": "^7.0.0",
+    "close-with-grace": "^1.2.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.23.2",
+    "fastify-plugin": "^4.5.1",
+    "graphql": "^16.8.1",
+    "ioredis": "^5.3.2",
+    "mercurius": "^13.1.0",
+    "mercurius-cache": "^5.0.0",
+    "pino": "^8.15.1",
+    "pino-pretty": "^10.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

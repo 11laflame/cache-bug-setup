@@ -1,0 +1,9 @@
+version: "3.1"
+
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: two_redis
+    restart: always
+    ports:
+      - 6379:6379
